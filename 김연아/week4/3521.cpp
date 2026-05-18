@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 #include <vector>
-#include <tuple> //참고로 c언어에는 튜플x, 구조체만o 
 #include <algorithm> //min 함수 
 
 int main() {

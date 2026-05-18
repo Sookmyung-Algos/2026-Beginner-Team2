@@ -21,9 +21,9 @@ int main() {
             //인덱스는 0보다 작아질수 x, 인덱스는 N-1 보다 커질 수 x
             for (int j = max(0, i - K); j <= min(N - 1, i + K); j++) {
                 if (table[j] == 'H') {
-                    table[j] = 'X'; // 먹은 햄버거 표시
+                    table[j] = 'X'; //먹은 햄버거 표시
                     count++;
-                    break; // 한 사람은 하나만 먹음
+                    break; //한 사람은 하나만 먹음
                 }
             }
         }
