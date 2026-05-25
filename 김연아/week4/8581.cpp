@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < N; i++) cin >> A[i];
     for (int i = 0; i < N; i++) cin >> B[i];
 
-    //¿À¸§Â÷¼ø Á¤·Ä
+    //ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
     sort(A.begin(), A.end());
     sort(B.begin(), B.end());
 
